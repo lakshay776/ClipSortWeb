@@ -25,7 +25,7 @@ const LandingPage: React.FC = () => {
                         Stop wasting hours on file management.
                     </p>
                     <div className="hero-actions">
-                        <a href={`${import.meta.env.BASE_URL}ClipSort-0.0.0-win.zip`} className="download-btn-large" download>
+                        <a href={`${import.meta.env.BASE_URL}clipsortV0.zip`} className="download-btn-large" download>
                             Download for Windows
                             <span className="version-tag">v0.0.0</span>
                         </a>
