@@ -10,7 +10,7 @@ const LandingPage: React.FC = () => {
                 </div>
                 <div className="nav-links">
                     <a href="#features">Features</a>
-                    <a href="/ClipSort-setup.zip" className="download-btn-small" download>Download</a>
+                    <a href={`${import.meta.env.BASE_URL}ClipSort-setup.zip`} className="download-btn-small" download>Download</a>
                 </div>
             </nav>
 
@@ -25,7 +25,7 @@ const LandingPage: React.FC = () => {
                         Stop wasting hours on file management.
                     </p>
                     <div className="hero-actions">
-                        <a href="/ClipSort-0.0.0-win.zip" className="download-btn-large" download>
+                        <a href={`${import.meta.env.BASE_URL}ClipSort-0.0.0-win.zip`} className="download-btn-large" download>
                             Download for Windows
                             <span className="version-tag">v0.0.0</span>
                         </a>
@@ -37,7 +37,7 @@ const LandingPage: React.FC = () => {
                             <div className="mockup-header"></div>
                             <div className="mockup-body">
                                 <img
-                                    src="/clipsortScreenshot.png"
+                                    src={`${import.meta.env.BASE_URL}clipsortScreenshot.png`}
                                     alt="App Screenshot"
                                     className="mockup-img"
                                 />
